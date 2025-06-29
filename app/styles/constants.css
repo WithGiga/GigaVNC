@@ -15,12 +15,12 @@
     /* Transparent to make button colors adapt to the background */
     --novnc-buttongrey: rgba(192, 192, 192, 0.5);
 
-    --novnc-blue: rgb(110, 132, 163);
-    --novnc-lightblue: rgb(74, 144, 217);
-    --novnc-darkblue: rgb(83, 99, 122);
+    --novnc-blue: rgb(64, 64, 64);
+    --novnc-lightblue: rgb(128, 128, 128);
+    --novnc-darkblue: rgb(32, 32, 32);
 
-    --novnc-green: rgb(0, 128, 0);
-    --novnc-yellow: rgb(255, 255, 0);
+    --novnc-green: rgb(240, 240, 240);
+    --novnc-yellow: rgb(255, 255, 255);
 }
 
 /* ------ MISC PROPERTIES ------ */
