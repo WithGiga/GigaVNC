@@ -18,7 +18,7 @@ import Keyboard from "../core/input/keyboard.js";
 import RFB from "../core/rfb.js";
 import * as WebUtil from "./webutil.js";
 
-const PAGE_TITLE = "noVNC";
+const PAGE_TITLE = "GigaVNC";
 
 const LINGUAS = ["cs", "de", "el", "es", "fr", "it", "ja", "ko", "nl", "pl", "pt_BR", "ru", "sv", "tr", "zh_CN", "zh_TW"];
 
@@ -1142,9 +1142,9 @@ const UI = {
 
         let msg;
         if (UI.getSetting('encrypt')) {
-            msg = _("Connected (encrypted) to ") + UI.desktopName;
+            msg = _("Connected (encrypted) to ") + "ASI Computer";
         } else {
-            msg = _("Connected (unencrypted) to ") + UI.desktopName;
+            msg = _("Connected (unencrypted) to ") + "ASI Computer";
         }
         UI.showStatus(msg);
         UI.updateVisualState('connected');
